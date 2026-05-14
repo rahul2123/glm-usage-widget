@@ -1,6 +1,25 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode / Swift
 .build/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.xcarchive
+
+# Build artifacts
 bin/
 build/
 *.o
 *.d
+
+# Editor
+.swiftpm/
+.vscode/
+.idea/
